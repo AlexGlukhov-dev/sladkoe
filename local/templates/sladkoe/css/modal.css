@@ -1,0 +1,119 @@
+.contactes {
+    margin: 10px;
+    position: fixed;
+    top: -625px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s;
+    z-index: 10;
+}
+
+
+.active {
+    top: 250px;
+    transition: all .6s;
+}
+
+
+.close {
+    all: unset;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+
+#fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 680px;
+    background: rgba(56, 57, 62, 0.2);
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+
+.call_go {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.fields_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    display: inline-block;
+    background: #c9bfc9;
+    color: #e314a8;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px outset #ffffff;
+    margin: 3px;
+    padding: 10px;
+    transition: all .3s;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.text {
+    display: inline-block;
+    color: #e314a8;
+    background: #c9bfc9;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 2px outset #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    transition: all .3s;
+}
+
+.elem:hover,
+.elem:focus {
+    border: 2px outset #e314a8;
+    background: #f3e5f2;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+
+.cap {
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    transition: all .3s;
+}
+
+
+.go {
+    border-radius: 10px;
+    border: 2px outset #ffffff;
+    background: #e314a8;
+    color: #c9bfc9;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all .3s;
+}
+
+.go:hover,
+.go:active {
+    border: 2px outset #e314a8;
+    background: #c9bfc9;
+    color: #e314a8;
+    transition: all .3s;
+}

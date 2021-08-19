@@ -1,0 +1,87 @@
+.Abcontacts {
+    margin: 50px auto;
+}
+
+
+#Abfields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    background: rgba(71, 75, 80, 0.2);
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.Abcall_go {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.Abelement {
+    display: inline-block;
+    background: #c9bfc9;
+    color: #e314a8;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    margin: 3px;
+    padding: 10px;
+    transition: all .3s;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#Abtext {
+    display: inline-block;
+    color: #e314a8;
+    background: #c9bfc9;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    transition: all .3s;
+}
+
+.Abelem:hover,
+.Abelem:focus {
+    border: 2px solid #e314a8;
+    background: #f3e5f2;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+#Abtext:hover,
+#Abtext:focus {
+    border: 2px solid #e314a8;
+    background: #f3e5f2;
+}
+
+.Abgo {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background: #c9bfc9;
+    color: #e314a8;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all .3s;
+}
+
+.Abgo:hover,
+.Abgo:active {
+    border: 2px solid #e314a8;
+    background: #ffffff;
+    transition: all .3s;
+}
